@@ -1,17 +1,15 @@
 package br.com.bookeasy.backend.Flat;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.*;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
 @Setter
 @Entity
+@NoArgsConstructor
 public class Flat {
 
     @Id
@@ -19,10 +17,8 @@ public class Flat {
     private UUID id;
     private String nome;
     private String descricao;
-    private double preco;
+    private BigDecimal preco;
     private Integer limite_funcionario;
     private Integer limite_unidades;
     private String periodecidade;
-
-
 }

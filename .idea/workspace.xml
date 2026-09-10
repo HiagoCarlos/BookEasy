@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dafc723-c14f-4764-80c2-2fd4e1d7d311" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/Dto/CreateUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/Dto/UserResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/user/UserTipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/br/com/bookeasy/backend/auth/auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

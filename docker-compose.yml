@@ -10,7 +10,7 @@ services:
     ports:
       - "${POSTGRES_PORT}:5432"
     volumes:
-      # Dados persistem entre restarts do container
+
       - barbearia_pgdata:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
@@ -34,8 +34,6 @@ services:
       SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL}
       SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
       SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
-      # Flyway roda automaticamente no boot do Spring, aplicando
-      # os arquivos de src/main/resources/db/migration/V1__..., V2__... etc.
     ports:
       - "${BACKEND_PORT}:8080"
     networks:
